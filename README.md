@@ -36,10 +36,35 @@ test
 
 -------------------------------------
 
-# 들여쓰기
+# 코드
+
+## 들여쓰기
 
 첫번째줄
-  두번째줄
+
+    두번째줄 띄어쓰기 4칸으로 블럭먹이기
+  
 세번째줄
 
+## 코드블럭
+
+방법1 pre, code
+
+<pre>
+<code>
+ function hello(){
+  console.log('HELLO!');
+ }
+ hello();
+</code>
+</pre>
+
+방법2 
+
+```
+function hello(){
+  console.log('HELLO!');
+}
+hello();
+```
 
