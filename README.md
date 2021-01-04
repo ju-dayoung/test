@@ -68,3 +68,45 @@ function hello(){
 hello();
 ```
 
+-------------------------------------
+
+# 링크
+
+- 참조링크
+
+link1 : [name][namelink]
+[namelink]: http://www.naver.com "Move namelink"
+
+- 외부링크
+
+link2 : [google](https://google.com, "google link")
+
+- 자동링크
+
+link3 : <https://github.com/>
+email : <address@google.com>
+
+------------------------------------
+
+# 강조
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+
+문장 중간에 쓸경우 띄어쓰기 필수
+
+------------------------------------
+
+# 이미지
+
+<img src="" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+------------------------------------
+
+# 줄바꿈
+
+줄바꿈은 띄어쓰기 3번하면 된다.
+
+줄을 바꾸자   
